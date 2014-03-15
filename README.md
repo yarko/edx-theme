@@ -7,6 +7,11 @@ Replace the GIT_ACCT and THEME_ACCT with your github account names,
 using with the `edx_platform_version` of your `edx_platform_repo`.
 Be sure you or the baseline you've started from has merged pull request #2387 from `edx/edx-platform`.
 
+Once you have confirmed basic theming using the canonical Stanford theme,
+it's recommended you make a branch and affect your theme changes there.
+Update the `edxapp_theme_version` variable in your `build-version.yml` as appropriate,
+and re-provision.
+
 To effect the same on a deployment, you can follow the general instructions
 [configuring-themes-in-devstack](https://github.com/edx/edx-platform/wiki/Developing-on-the-edX-Developer-Stack#configuring-themes-in-devstack),
 modified by guidance from
