@@ -3,7 +3,7 @@ Preface to Stanford Notes
 
 To confirm theming works, use the repository and version mechanisms as outlined in
 [build-version.yml gist](https://gist.github.com/yarko/8818633).
-Replace the GIT_ACCT and THEME_ACCT with apigee github account names,
+Replace the GIT_ACCT and THEME_ACCT with your github account names,
 using with the `edx_platform_version` of your `edx_platform_repo`.
 Be sure you or the baseline you've started from has merged pull request #2387 from `edx/edx-platform`.
 
