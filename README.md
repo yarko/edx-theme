@@ -1,3 +1,21 @@
+Preface to Stanford Notes
+=========================
+
+To confirm theming works, use the repository and version mechanisms as outlined in
+[build-version.yml gist](https://gist.github.com/yarko/8818633).
+Replace the GIT_ACCT and THEME_ACCT with apigee github account names,
+using with the `edx_platform_version` of apigee's `edx_platform_repo`.
+Alternatively, merge pull request #2387 from `edx/edx-platform`.
+
+To effect the same on a deployment, you can follow the general instructions
+[configuring-themes-in-devstack](https://github.com/edx/edx-platform/wiki/Developing-on-the-edX-Developer-Stack#configuring-themes-in-devstack),
+modified by guidance from
+[compile-assets-manually](https://github.com/edx/configuration/wiki/edX-Managing-the-Production-Stack#compile-assets-manually).
+
+To affect homepage video, see `edx-platform/lms/templates/index.html`
+(search for section id `video_modal`).
+Note: to change this, copy the modified `index.html` to the same relative file space in your theme.
+
 Overview
 ========
 This directory stores Stanford's theming files for its edX instance.
